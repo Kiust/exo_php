@@ -22,7 +22,7 @@ if ($age >= 12) {
 } elseif ($age >= 8) {
     $categorie = "Pupille";
 } elseif ($age >= 6) {
-    $categorie = "Pupille";
+    $categorie = "Poussin";
     
 } else {
     echo "Veuillez saisir un âge";
