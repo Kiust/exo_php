@@ -5,17 +5,14 @@ forme table de 8:</p>
 
 <h2>Résultat</h2>
 
+<table>
 <?php
 
 
-for($i = 8*1; $i <= 80; $i++) {
-    echo "8 X $i ";
+for($i=1; $i<11; $i++){
+$number = $i * 8;
+echo "<tr><td>8 X $i  =  $number </td></tr> \n";
 }
-
-
-    
-
-
 
 /*
 
@@ -30,3 +27,4 @@ Remarque : proposer 2 solutions avec 2 types de boucles.
 */
 
 ?>
+</table>
