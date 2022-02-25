@@ -11,6 +11,8 @@
     
     <?php
 
+//commencer par les numéro positif plus grand pour les supérieur ou égal ****refactoring****** 
+
 $age = 7;
 
 if ($age >= 12) {
