@@ -11,7 +11,7 @@ forme table de 8:</p>
 
 for($i=1; $i<11; $i++){
 $number = $i * 8;
-echo "<tr><td>8 X $i  =  $number </td></tr> \n";
+echo "<tr><td>8 X $i = $number </td></tr> \n";
 }
 
 /*
