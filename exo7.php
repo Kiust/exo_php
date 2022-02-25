@@ -5,33 +5,29 @@ Poussin : entre 6 et 7 ans
 Pupille : entre 8 et 9 ans
 Minime : entre 10 et 11 ans
 Cadet : à partir de 12 ans
-Si la catégorie n’est pas gérée, merci de le préciser.
+Si la catégorie n’est pas gérée, merci de le préciser.</p>
 
 <h2>Résultat</h2>
 
 <?php
 
+$age = 6;
 
-// En fonction de l'âge, afficher une catégorie
-/*
-    si la personne a plus de 30 ans --> SENIOR
-    si la personne a plus de 20 ans --> CADET
-    sinon JUNIOR
-*/
-
-if(gettype($age) == "double" || gettype($age) == "integer" ) {
-    if($age >= 30) {
-        $resultat = "Senior";
-    } elseif($age >= 20) {
-        $resultat = "Cadet";
-    } else {
-        $resultat = "Junior";
-    }
+if ($age >= 12) {
+    $categorie = "Cadet";
+} elseif ($age >= 10 && $age >= 11) {
+    $categorie = "Minime";
+} elseif ($age >= 8 && $age >= 9) {
+    $categorie = "Pupille";
+} elseif ($age >= 6 && $age >= 7) {
+    $categorie = "Pupille";
     
-    echo "La personne qui a $age ans est : $resultat<br>";
+    echo "La personne qui a $age ans appartient à la catégorie : $categorie";
 } else {
-    echo "Veuillez saisir un âge numérique !<br>";
+    echo "Veuillez saisir un âge";
 }
+    
+
 
 
 /*

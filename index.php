@@ -87,11 +87,7 @@ var_dump($tableau1);
 $prenom = "Georges";
 $age = 22.5;
 
-if($age >= 18) {
-    $resultat = "majeur";
-} else {
-    $resultat = "mineur";
-}
+
 
 echo "$prenom est $resultat<br>";
 
