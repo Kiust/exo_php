@@ -15,17 +15,17 @@ $age = 6;
 
 if ($age >= 12) {
     $categorie = "Cadet";
-} elseif ($age >= 10 && $age >= 11) {
+} elseif ($age >= 10 && $age <= 11) {
     $categorie = "Minime";
-} elseif ($age >= 8 && $age >= 9) {
+} elseif ($age >= 8 && $age <= 9) {
     $categorie = "Pupille";
-} elseif ($age >= 6 && $age >= 7) {
+} elseif ($age >= 6 && $age <= 7) {
     $categorie = "Pupille";
     
-    echo "La personne qui a $age ans appartient à la catégorie : $categorie";
 } else {
     echo "Veuillez saisir un âge";
 }
+echo "La personne qui a $age ans appartient à la catégorie : $categorie";
     
 
 

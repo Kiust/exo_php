@@ -1,13 +1,16 @@
 <h1>Exercise 8</h1>
 
 <p>Ecrire un algorithme qui renvoie la table de multiplication d’un nombre passé en paramètre sous la
-forme :</p>
+forme table de 8:</p>
 
 <h2>Résultat</h2>
 
 <?php
 
 
+for($i = 8*1; $i <= 80; $i++) {
+    echo "8 X $i ";
+}
 
 
     
