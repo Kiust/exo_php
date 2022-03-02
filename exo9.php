@@ -8,7 +8,10 @@ plus de 20 ans, alors celle-ci est imposable (sinon ce n’est pas le cas, « no
     
     <?php
 
-    
+    $age =18;
+    $sexe = homme;
+
+
 
 /*
 
