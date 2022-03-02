@@ -18,13 +18,9 @@ Exemple : tableau ➔ Mickaël -> FRA, Virgile -> ESP, Marie-Claire -> ENG </p>
         echo $valeur . "   ". $cle . "<br>";
     }
     
-
-
     // Affichage 2 :
     
-    
     ksort($prenoms);
-
     foreach($prenoms as $cle => $valeur) {
     echo $valeur . "   ". $cle . "<br>";;
 }
