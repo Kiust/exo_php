@@ -22,7 +22,7 @@ Exemple : tableau ➔ Mickaël -> FRA, Virgile -> ESP, Marie-Claire -> ENG </p>
     
     ksort($prenoms);
     foreach($prenoms as $cle => $valeur) {
-    echo $valeur . "   ". $cle . "<br>";;
+        echo $valeur . "   ". $cle . "<br>";;
 }
 
 /*
