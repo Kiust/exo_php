@@ -10,18 +10,13 @@ d’afficher le nombre de marques de voitures présentes dans le tableau.
 
 $voitures = array ("Peugeot", "Renault", "BMW", "Mercedes");
 
-
 echo "Il y a  " .count($voitures) ."  marques de voitures dans le tableau :" ." <br />"; 
 echo "<ol>";
+
 foreach($voitures as $marque) {
     echo "<li>".$marque."</li>";
 }
 echo "</ol>";
-
-
-
-
-
 
 /* Développement
 

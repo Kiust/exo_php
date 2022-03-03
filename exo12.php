@@ -25,7 +25,6 @@ Exemple : tableau ➔ Mickaël -> FRA, Virgile -> ESP, Marie-Claire -> ENG </p>
     echo $valeur . "   ". $cle . "<br>";;
 }
 
-
 /*
 
 Affichage1 :

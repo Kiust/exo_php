@@ -9,11 +9,9 @@
 <?php
 
 
-$aPayer = 152;
+$aPayer = 120;
 $verse = 200;
 $resteApayer = $verse - $aPayer;
-
-$billets = [1, 2, 5, 10];
 
 $billet10 = intdiv($resteApayer, 10);
 $resteApayer = $resteApayer - $billet10 * 10;
@@ -27,26 +25,12 @@ $resteApayer = $resteApayer - $billet2 * 1;
 $billet1 = intdiv($resteApayer, 1);
 $resteApayer = $resteApayer - $billet1 * 1;
 
-
-
-
-
-
-//array type: chosen [1,2,5,10]
-
-
-
-
 echo "Montant à payer : $aPayer €<br />", "Montant versé : $verse €<br />",
 "Reste à payer : $resteApayer €<br />", "********************<br />", "Rendue de monnaie : <br />",
 "$billet10 billets de 10 €  - ", "$billet5 billets de 5 €  - ", 
 "$billet2 pièce de 2 €  -  ", "$billet1 pièce de 1 €";
 
-
-
-
-
-/* Développement
+/* 
 
 Affichage :
 Montant à payer : 152 €
