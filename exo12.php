@@ -9,21 +9,36 @@ Exemple : tableau ➔ Mickaël -> FRA, Virgile -> ESP, Marie-Claire -> ENG </p>
     
     <?php
     
+    //tableau associatif
 
-    $prenoms = ["Mickaël" => "Salut", "Virgile" => "Hola", "Marie-Claire" => "Hello" ];
+    $prenoms = ["Mickaël" => "FR", "Virgile" => "ESP", "Marie-Claire" => "ENG"]; 
+    
+    // ksort($prenoms);
 
-    // Affichage 1 :
+     //print_r($prenoms)."<br>";
 
-    foreach($prenoms as $cle => $valeur) { 
-        echo $valeur . "   ". $cle . "<br>";
+    foreach($prenoms as $prenom => $langue){
+
+        if($langue == "FR") { echo "Salut $prenom <br>";}
+        
+        elseif($langue == "ESP") { echo "Hola $prenom <br>";}
+
+        elseif($langue == "ENG") { echo "Hello $prenom <br>"; 
+        
+        }else{echo "la langue n'est pas disponible";}
+
     }
+        // Affichage 1 :
+//     foreach($prenoms as $cle => $valeur) { 
+//         echo $valeur . "   ". $cle . "<br>";
+//     }
     
-    // Affichage 2 :
+//     // Affichage 2 :
     
-    ksort($prenoms);
-    foreach($prenoms as $cle => $valeur) {
-        echo $valeur . "   ". $cle . "<br>";;
-}
+//     ksort($prenoms);
+//     foreach($prenoms as $cle => $valeur) {
+//         echo $valeur . "   ". $cle . "<br>";
+// }
 
 /*
 
@@ -41,7 +56,5 @@ Salut Mickaël
 Hola Virgile
 
 */
-
-
 
 ?>
