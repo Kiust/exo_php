@@ -40,8 +40,6 @@ Hello Marie-Claire
 Salut Mickaël
 Hola Virgile
 
-toto tata btiti
-
 */
 
 
