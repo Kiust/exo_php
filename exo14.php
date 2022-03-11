@@ -11,7 +11,7 @@
 	$dateNaissance = new DateTime("1995-05-15");
 	$aujourdhui = new DateTime();
 
-    // put date in crescendo order $hold, recent
+    // put dates in crescendo order ($hold, $recent)
 	$diff = date_diff($dateNaissance, $aujourdhui);
     
     // show data of $diff
